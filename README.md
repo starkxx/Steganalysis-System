@@ -46,20 +46,3 @@ python app.py
 
 Access the Application
 Open your browser and navigate to: http://127.0.0.1:5000
-
-
-Folder Structure
-
-Project Root/
-├── static/
-│   ├── css/
-│   │   └── style.css      # CSS for styling the web app
-│   ├── uploads/           # Folder for uploaded images
-│   └── images/            # Optional images for app assets
-├── templates/
-│   └── index.html         # HTML template for the web interface
-├── saved_model/
-│   └── steganography_cnn_model.h5  # Pre-trained CNN model
-├── app.py                 # Main Flask application
-├── requirements.txt       # Python dependencies
-└── README.md              # Project documentation
